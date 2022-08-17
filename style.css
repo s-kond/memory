@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+.cardImg {
+    height: 160px;
+    width: 160px;
+}
+
+.closed {
+    display: none;
+}
+
+.card:hover {
+    box-shadow: 1px 1px;
+}
+
+.btn-group {
+    margin: 10px auto;
+    width: 600px;
+    
+}
